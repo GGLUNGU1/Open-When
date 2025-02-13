@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Open When... You Feel Anxious</title>
+    <style>
+        body { font-family: 'Courier New', monospace; background-color: #fff; color: #000; text-align: center; }
+        .container { max-width: 600px; margin: auto; padding: 20px; }
+    </style>
+</head>
+<body onload="checkPassword()">
+    
+<script>
+function checkPassword() {
+    var password = prompt("Enter PIN to access:");
+    if (password !== "9594") {
+        alert("Incorrect PIN. Access denied.");
+        window.location.href = "index.html";
+    }
+}
+</script>
+
+    <div class="container">
+        <h1>Open When... You Feel Anxious</h1>
+        <p>Philippians 4:6 – "Do not be anxious about anything, but in everything by prayer and supplication with thanksgiving let your requests be made known to God."<br><br>Give your worries to God. He hears you, and He cares for you.</p>
+        <a href="index.html">Back to Home</a>
+    </div>
+</body>
+</html>

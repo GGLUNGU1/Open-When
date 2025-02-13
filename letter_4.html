@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Open When... You Need Hope</title>
+    <style>
+        body { font-family: 'Courier New', monospace; background-color: #fff; color: #000; text-align: center; }
+        .container { max-width: 600px; margin: auto; padding: 20px; }
+    </style>
+</head>
+<body onload="checkPassword()">
+    
+<script>
+function checkPassword() {
+    var password = prompt("Enter PIN to access:");
+    if (password !== "9594") {
+        alert("Incorrect PIN. Access denied.");
+        window.location.href = "index.html";
+    }
+}
+</script>
+
+    <div class="container">
+        <h1>Open When... You Need Hope</h1>
+        <p>Jeremiah 29:11 – "For I know the plans I have for you, declares the Lord, plans to prosper you and not to harm you, plans to give you hope and a future."<br><br>Even when things seem uncertain, God’s plans for you are good.</p>
+        <a href="index.html">Back to Home</a>
+    </div>
+</body>
+</html>

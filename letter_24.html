@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Open When... You Are Struggling in Prayer</title>
+    <style>
+        body { font-family: 'Courier New', monospace; background-color: #fff; color: #000; text-align: center; }
+        .container { max-width: 600px; margin: auto; padding: 20px; }
+    </style>
+</head>
+<body onload="checkPassword()">
+    
+<script>
+function checkPassword() {
+    var password = prompt("Enter PIN to access:");
+    if (password !== "9594") {
+        alert("Incorrect PIN. Access denied.");
+        window.location.href = "index.html";
+    }
+}
+</script>
+
+    <div class="container">
+        <h1>Open When... You Are Struggling in Prayer</h1>
+        <p>Romans 8:26 – "The Spirit helps us in our weakness. We do not know what we ought to pray for, but the Spirit intercedes for us."<br><br>Even when words fail, God hears your heart.</p>
+        <a href="index.html">Back to Home</a>
+    </div>
+</body>
+</html>

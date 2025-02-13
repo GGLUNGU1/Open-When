@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Open When... You Feel Like You’ve Failed</title>
+    <style>
+        body { font-family: 'Courier New', monospace; background-color: #fff; color: #000; text-align: center; }
+        .container { max-width: 600px; margin: auto; padding: 20px; }
+    </style>
+</head>
+<body onload="checkPassword()">
+    
+<script>
+function checkPassword() {
+    var password = prompt("Enter PIN to access:");
+    if (password !== "9594") {
+        alert("Incorrect PIN. Access denied.");
+        window.location.href = "index.html";
+    }
+}
+</script>
+
+    <div class="container">
+        <h1>Open When... You Feel Like You’ve Failed</h1>
+        <p>Micah 7:8 – "Though I have fallen, I will rise. Though I sit in darkness, the Lord will be my light."<br><br>Failure is not final. God will lift you up again.</p>
+        <a href="index.html">Back to Home</a>
+    </div>
+</body>
+</html>
